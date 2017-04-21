@@ -1,0 +1,10 @@
+django admin
+U: admin
+P: admin
+
+Github
+U: fabiansl81
+P: Favntk81
+
+
+

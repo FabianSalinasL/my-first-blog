@@ -8,23 +8,31 @@
 		<div>
 			<h1><a href = "http://www.nike.com">Django Girls Blog</a></h1>
 		</div>
-
+		<br>
+		<br>
+		<br>
 		
                 {% for post in posts %}     
 			<div>   
+			<ul>
+				<li>
 				<p>published: {{ post.published_date }}</p>
-            			<h1><a href="">{{ post.title }}</a></h1>
+            			<h2><a href="">{{ post.title }}</a></h2>
             			<p> {{ post.text|linebreaksbr }}</p>
+				<br>
+			
 			</div>
 		{% endfor %}        
        		
 
 
 		<div>
-            		<p>published: 14.06.2014, 12:14</p>
+			
+            		<p> <li>published: 14.06.2014, 12:14</p>
             		<h2><a href="">My second post</a></h2>
             		<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
-        	</div>
+			</ul>        	
+		</div>
 
 
 
